@@ -1,0 +1,9 @@
+.smallImage {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  cursor: pointer;
+}
+.list123 {
+  list-style-type: none;
+}

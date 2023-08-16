@@ -1,0 +1,18 @@
+.listContainer {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.tabItemsHead {
+  color: white;
+  font-family: 'bree serif';
+  font-size: 24px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.extra {
+  text-decoration: underline;
+  color: #fec653;
+}

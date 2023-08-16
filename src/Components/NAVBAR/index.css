@@ -1,0 +1,38 @@
+.NavbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.websiteLogo {
+  height: 40px;
+  width: 100px;
+}
+
+.navbarInsideContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navHeading {
+  font-family: 'roboto';
+  color: white;
+  font-size: 20px;
+}
+.navSpanHeading {
+  font-family: 'roboto';
+  color: #fec653;
+  font-size: 18px;
+  margin-left: 04px;
+}
+.timerImage {
+  height: 20px;
+  width: 20px;
+  margin-left: 14px;
+}
+.navDescription {
+  font-family: 'roboto';
+  color: #fec653;
+  font-size: 18px;
+  margin-left: 04px;
+  font-weight: 600;
+}
