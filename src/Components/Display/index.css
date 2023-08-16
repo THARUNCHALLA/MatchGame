@@ -1,8 +1,17 @@
 .smallImage {
-  height: 150px;
-  width: 150px;
-  margin: 10px;
+  height: 100px;
+  width: 100px;
+  margin: 04px;
   cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  .smallImage {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    cursor: pointer;
+  }
 }
 .list123 {
   list-style-type: none;

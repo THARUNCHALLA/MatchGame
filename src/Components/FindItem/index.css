@@ -16,16 +16,29 @@
   justify-content: center;
 }
 .img12345 {
-  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
-  height: 80%;
-  width: 30%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  height: 60%;
   background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 40px;
-  padding: 50px;
+  margin: 40px;
+  padding: 70px;
+}
+@media (min-width: 600px) {
+  .img12345 {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+    height: 80%;
+    width: 30%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 50px;
+  }
 }
 .heading123 {
   color: white;
@@ -60,9 +73,17 @@
   margin: 0px;
   border: solid 1px #2c0e3a;
 }
+
 .FirstImage {
-  height: 400px;
+  height: 200px;
   margin-top: 40px;
+}
+
+@media (min-width: 600px) {
+  .FirstImage {
+    height: 400px;
+    margin-top: 40px;
+  }
 }
 .list {
   list-style-type: none;

@@ -4,10 +4,15 @@
   align-items: center;
 }
 .websiteLogo {
-  height: 40px;
-  width: 100px;
+  height: 30px;
+  width: 80px;
 }
-
+@media (min-width: 600px) {
+  .websiteLogo {
+    height: 40px;
+    width: 100px;
+  }
+}
 .navbarInsideContainer {
   display: flex;
   justify-content: space-between;
